@@ -7,7 +7,7 @@ sudo apt update && sudo apt upgrade
 ## Install Basics
 
 ```
-sudo apt install gnome-tweaks guake gnome-shell-extensions dconf-editor
+sudo apt install gnome-tweaks guake gnome-shell-extensions dconf-editor ubuntu-restricted-extras steam
 ```
 
 ## Install Snap Packages
