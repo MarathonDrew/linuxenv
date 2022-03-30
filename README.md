@@ -7,7 +7,7 @@ sudo apt update && sudo apt upgrade
 ## Install Basics
 
 ```
-sudo apt install gnome-tweaks guake gnome-shell-extensions dconf-editor ubuntu-restricted-extras steam htop neofetch neovim bpytop
+sudo apt install gnome-tweaks gnome-shell-extensions dconf-editor ubuntu-restricted-extras steam neofetch bpytop emacs
 ```
 
 ## Install Snap Packages
