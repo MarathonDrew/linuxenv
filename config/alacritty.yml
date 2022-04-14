@@ -14,6 +14,7 @@
 window:
   title: Alacritty Terminal
   dynamic_title: false
+  opacity: 0.65
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
