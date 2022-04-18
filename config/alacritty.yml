@@ -14,7 +14,10 @@
 window:
   title: Alacritty Terminal
   dynamic_title: false
-  opacity: 0.65
+  opacity: 0.75
+
+shell:
+  program: /usr/bin/zsh
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
@@ -72,7 +75,7 @@ window:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-#opacity: 1.0
+#background_opacity: 0.3
 
 # Startup Mode (changes require restart)
 #
@@ -106,7 +109,7 @@ dynamic_title: false
 #scrolling:
 # Maximum number of lines in the scrollback buffer.
 # Specifying '0' will disable scrolling.
-#history: 10000
+history: 10000
 
 # Scrolling distance multiplier.
 #multiplier: 3
