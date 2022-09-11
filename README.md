@@ -17,3 +17,6 @@ sudo snap install code --classic
 sudo snap install spotify
 ```
 
+Install jumpapp
+
+https://github.com/mkropat/jumpapp
