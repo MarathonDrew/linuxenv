@@ -1,0 +1,6 @@
+# logitech ultralight mouse up workspace
+"xdotool key F2"
+b:9
+# logitech ultralight mouse down workspace
+"xdotool key F3"
+b:8
