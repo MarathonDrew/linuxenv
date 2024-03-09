@@ -1,7 +1,0 @@
-[shell]
-program = "/usr/bin/zsh"
-
-[window]
-dynamic_title = false
-opacity = 0.85
-title = "Alacritty Terminal"
