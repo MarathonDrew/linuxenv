@@ -1,0 +1,15 @@
+[user]
+	email = drew.hinderhofer@gmail.com
+	name = Drew hinderhofer
+[init]
+	defaultBranch = main
+[alias]
+	co = checkout
+	bv = "!git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"
+	st = status
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	cob = checkout -b
+	up = !git fetch origin && git merge origin/main
+	branch-name = "!git rev-parse --abbrev-ref HEAD"
+	publish = "!git push -u origin $(git branch-name)"
+	stats = "!git diff --stat"
